@@ -2,13 +2,14 @@
 import './App.css';
 import Comment from './components/Comment'
 import Card from './ui/Card'
+import Home from './components/imgs/пташка.jpg'
 
 const comment = {
   date: new Date(),
   text: 'Learn React is awesome!',
   author: {
-    name: 'Kitty',
-    avatarUrl: 'https://placekitten.com/g/64/64',
+    name: 'Пташка',
+    avatarUrl: Home,
   },
 };
 

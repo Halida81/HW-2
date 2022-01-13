@@ -1,4 +1,4 @@
-
+import './FormatDate.css'
 function FormatDate(props){
 
     const month = props.date.toLocaleString('en-Us', {month: 'long'})
@@ -9,10 +9,11 @@ function FormatDate(props){
 
 
     return(
-        <div>
+        <div className="date">
             <div>{day}  {month}  {year}</div>
             
         </div>
     )
 }
 
+export default FormatDate;

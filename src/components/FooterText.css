@@ -1,12 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
 .Footer{
 width: 300px;
+display: inline-block;
 
 
 
 }
 
+
 .Comment-text{
     margin-bottom: 20px;
     border-bottom: 1px solid;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
 
 }
